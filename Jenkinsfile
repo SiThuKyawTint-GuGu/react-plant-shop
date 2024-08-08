@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'agent-via-ssh'
+        label 'agent-via.ssh'
     }
     environment {
         compose_service_name = 'react-jenkins-docker'
