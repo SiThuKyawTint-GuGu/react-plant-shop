@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
         compose_service_name = 'react-jenkins-docker'
-        workspace = '/home/guguskyer/project/react-jenkins-docker/'
+        workspace = '/home/guguskyler/project/react-jenkins-docker/'
     }
     stages {
         stage('Checkout Source') {
